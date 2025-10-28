@@ -1,0 +1,107 @@
+name: reto_hot_flutter
+description: Versión Flutter de Reto Hot - minijuegos atrevidos
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.2.1
+  intl: ^0.20.1
+  provider: ^6.0.5
+  audioplayers: ^6.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron-Regular.ttf
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf
+  assets:
+    - assets/img/
+    - assets/audio/
+    - assets/img/icon/
+    - assets/img/bg/
+    - assets/i18n/
+    - assets/data/
+    - assets/data/dados_es.json
+    - assets/data/dados_en.json
+    - assets/data/dadosOral_es.json
+    - assets/data/dadosOral_en.json
+    - assets/img/dice/
+    - assets/img/nivel1/
+    - assets/img/nivel1/1-1.webp
+    - assets/img/nivel1/1-2.webp
+    - assets/img/nivel1/1-3.webp
+    - assets/img/nivel1/1-4.webp
+    - assets/img/nivel1/1-5.webp
+    - assets/img/nivel1/1-6.webp
+    - assets/img/nivel2/
+    - assets/img/nivel2/2-1.webp
+    - assets/img/nivel2/2-2.webp
+    - assets/img/nivel2/2-3.webp
+    - assets/img/nivel2/2-4.webp
+    - assets/img/nivel2/2-5.webp
+    - assets/img/nivel2/2-6.webp
+    - assets/img/nivel3/
+    - assets/img/nivel3/3-1.webp
+    - assets/img/nivel3/3-2.webp
+    - assets/img/nivel3/3-3.webp
+    - assets/img/nivel3/3-4.webp
+    - assets/img/nivel3/3-5.webp
+    - assets/img/nivel3/3-6.webp
+    - assets/img/nivel4/
+    - assets/img/nivel4/4-1.webp
+    - assets/img/nivel4/4-2.webp
+    - assets/img/nivel4/4-3.webp
+    - assets/img/nivel4/4-4.webp
+    - assets/img/nivel4/4-5.webp
+    - assets/img/nivel4/4-6.webp
+    - assets/img/nivel5/
+    - assets/img/nivel5/5-1.webp
+    - assets/img/nivel5/5-2.webp
+    - assets/img/nivel5/5-3.webp
+    - assets/img/nivel5/5-4.webp
+    - assets/img/nivel5/5-5.webp
+    - assets/img/nivel5/5-6.webp
+    - assets/img/nivel6/
+    - assets/img/nivel6/6-1.webp
+    - assets/img/nivel6/6-2.webp
+    - assets/img/nivel6/6-3.webp
+    - assets/img/nivel6/6-4.webp
+    - assets/img/nivel6/6-5.webp
+    - assets/img/nivel6/6-6.webp
+    - assets/img/nivel1/oral/
+    - assets/img/nivel1/oral/1-1.webp
+    - assets/img/nivel1/oral/1-2.webp
+    - assets/img/nivel1/oral/1-3.webp
+    - assets/img/nivel1/oral/1-4.webp
+    - assets/img/nivel2/oral/
+    - assets/img/nivel2/oral/2-1.webp
+    - assets/img/nivel2/oral/2-2.webp
+    - assets/img/nivel2/oral/2-3.webp
+    - assets/img/nivel2/oral/2-4.webp
+    - assets/img/nivel3/oral/
+    - assets/img/nivel3/oral/3-1.webp
+    - assets/img/nivel3/oral/3-2.webp
+    - assets/img/nivel3/oral/3-3.webp
+    - assets/img/nivel3/oral/3-4.webp
+    - assets/img/nivel4/oral/
+    - assets/img/nivel4/oral/4-1.webp
+    - assets/img/nivel4/oral/4-2.webp
+    - assets/img/nivel4/oral/4-3.webp
+    - assets/img/nivel4/oral/4-4.webp
+
+
